@@ -13,8 +13,16 @@
 </head>
 <body>
 <h1>Profile Cookie</h1>
+<h1>Raw Cookie: ${cookie.user.value}</h1>
 <h2>
-    Username: ${cookie.username.value}<br>
+    Username: ${requestScope.user.username}<br>
 </h2>
+<h2>
+    Password: ${requestScope.user.password}<br>
+</h2>
+
+<form action="logout" method="post">
+    <input type="submit" value="Logout" formaction="logout">
+</form>
 </body>
 </html>

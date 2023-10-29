@@ -12,9 +12,16 @@
     <title>Profile</title>
 </head>
 <body>
-<h1>Profile Cookie</h1>
+<h1>Profile Session</h1>
 <h2>
-    Username: ${cookie.username.value}<br>
+    Username: ${sessionScope.user.username}<br>
 </h2>
+<h2>
+    Password: ${sessionScope.user.password}<br>
+</h2>
+
+<form action="logout" method="post">
+    <input type="submit" value="Logout" formaction="logout">
+</form>
 </body>
 </html>
