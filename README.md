@@ -1,4 +1,4 @@
-Login: Session & ID
+### Login: Session & ID
 
-- [] Login Form
-- [] User Profile
+- [x] Login Form
+- [x] User Profile
